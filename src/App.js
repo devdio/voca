@@ -3,16 +3,27 @@ import Hello from './components/Hello'
 import Welcome from './components/Welcome'
 
 function App() {
-  const name = "FLYAI"
-  const user = {
-    name:'FLYAI',
-    points: 75
+  
+  function showName() {
+    console.log('이름 보기')
   }
+
+  function showText(val) {
+    console.log(val)
+  }
+
   return (
     <div className="App">
-      <h1 style={{color:'green'}}>Hello {user.name}, your point is {user.points}</h1>
-      <Hello></Hello>
-      <Welcome></Welcome>
+      <button onClick={showName}>이름 보기</button>
+      <button onClick={ () => {
+        console.log('나이 : ', 30)
+      } }>나이 보기</button>
+      
+      <input type='text' onChange={
+        (e) => {
+          showText(e.target.value)
+        }
+      } />
     </div>
   );
 }
