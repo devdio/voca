@@ -1,0 +1,44 @@
+{
+    "days":[
+        {"id":1, "day":1},
+        {"id":2, "day":2},
+        {"id":3, "day":3}
+    ],
+    "words":[
+        {
+            "id":1,
+            "day":1,
+            "eng":"book",
+            "ko":"책",
+            "isdone":true
+        },
+        {
+            "id":2,
+            "day":2,
+            "eng":"Car",
+            "ko":"자동차",
+            "isdone":false
+        },
+        {
+            "id":3,
+            "day":3,
+            "eng":"Home",
+            "ko":"집",
+            "isdone":false
+        },
+        {
+            "id":4,
+            "day":1,
+            "eng":"apple",
+            "ko":"사과",
+            "isdone":false
+        },
+        {
+            "id":5,
+            "day":1,
+            "eng":"pear",
+            "ko":"배",
+            "isdone":false
+        }
+    ]
+}
