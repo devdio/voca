@@ -10,7 +10,7 @@
 ```
 File > Preferences > Settings. 
 
-사용자(User) 탭 > Include Languages 찾기
+사용자(User) 탭 > "Include Languages" 찾기
 
 항목 추가 
 "javascript": "javascriptreact"
