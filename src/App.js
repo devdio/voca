@@ -1,4 +1,7 @@
 
+import Hello from './components/Hello'
+import Welcome from './components/Welcome'
+
 function App() {
   const name = "FLYAI"
   const user = {
@@ -8,7 +11,10 @@ function App() {
   return (
     <div className="App">
       <h1 style={{color:'green'}}>Hello {user.name}, your point is {user.points}</h1>
-      <a href="http://www.naver.com">Naver</a>
+      <Hello></Hello>
+      <Welcome></Welcome>
+      <Welcome></Welcome>
+      <Welcome></Welcome>
     </div>
   );
 }
