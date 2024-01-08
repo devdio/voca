@@ -13,8 +13,6 @@ function App() {
       <h1 style={{color:'green'}}>Hello {user.name}, your point is {user.points}</h1>
       <Hello></Hello>
       <Welcome></Welcome>
-      <Welcome></Welcome>
-      <Welcome></Welcome>
     </div>
   );
 }
