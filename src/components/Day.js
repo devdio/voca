@@ -1,16 +1,23 @@
-import React from 'react'
-import dummy from '../db/data.json'
-import {useParams} from 'react-router-dom'
-import Word from './Word'
+import { useEffect, useState } from 'react';
+import {useParams} from 'react-router-dom';
+import Word from './Word';
 
 function Day() {
 
     // day가 문자열임...
     const { day } = useParams();
-    const wordList = dummy.words.filter(word => word.day === Number(day));
+    // const wordList = dummy.words.filter(word => word.day === Number(day));
+    const [words, setWords] = useState([]);
 
-    
-    // console.log(useParams());
+    useEffect(() => {
+        fetch(`http://localhost:3001/words?day=${day}`)
+        .then(res => {
+            return res.json()
+        })
+        .then(data => {
+            setWords(data)
+        })
+      }, [day])
 
     return (
     <>
@@ -18,7 +25,7 @@ function Day() {
     <table>
         <tbody>
             {
-                wordList.map( word => (
+                words.map( word => (
                     <Word key={word.id} word={word} />
                 ))
             }           
