@@ -1,46 +1,67 @@
 {
-  "days": [
-    {
-      "id": 1,
-      "day": 1
-    },
-    {
-      "id": 2,
-      "day": 2
-    },
-    {
-      "id": 3,
-      "day": 3
-    }
-  ],
-  "words": [
-    {
-      "id": 2,
-      "day": 2,
-      "eng": "Car",
-      "ko": "자동차",
-      "isdone": false
-    },
-    {
-      "id": 3,
-      "day": 3,
-      "eng": "Home",
-      "ko": "집",
-      "isdone": false
-    },
-    {
-      "id": 4,
-      "day": 1,
-      "eng": "apple",
-      "ko": "사과",
-      "isdone": false
-    },
-    {
-      "id": 5,
-      "day": 1,
-      "eng": "pear",
-      "ko": "배",
-      "isdone": false
-    }
-  ]
+    "days": [
+        {
+            "id": 1,
+            "day": 1
+        },
+        {
+            "id": 2,
+            "day": 2
+        },
+        {
+            "id": 3,
+            "day": 3
+        }
+    ],
+    "words": [
+        {
+            "id": 1,
+            "day": 2,
+            "eng": "tree",
+            "ko": "나무",
+            "isdone": false
+        },
+        {
+            "id": 2,
+            "day": 2,
+            "eng": "Car",
+            "ko": "자동차",
+            "isdone": false
+        },
+        {
+            "id": 3,
+            "day": 3,
+            "eng": "Home",
+            "ko": "집",
+            "isdone": false
+        },
+        {
+            "id": 4,
+            "day": 1,
+            "eng": "apple",
+            "ko": "사과",
+            "isdone": false
+        },
+        {
+            "id": 5,
+            "day": 1,
+            "eng": "pear",
+            "ko": "배",
+            "isdone": false
+        },
+        {
+            "id": 6,
+            "day": 2,
+            "eng": "house",
+            "ko": "집",
+            "isdone": false
+        },
+        {
+            "id": 7,
+            "day": 2,
+            "eng": "school",
+            "ko": "학교",
+            "isdone": false
+        }
+    ]
 }
