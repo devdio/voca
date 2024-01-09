@@ -2,8 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
+    <div className="footer">
+    <hr class="solid"></hr>
+    <div >
       FLYAI 2024
+    </div>
     </div>
   )
 }

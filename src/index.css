@@ -42,11 +42,16 @@ a {
 
 .header .link {
   border: 1px solid #333;
-  padding: 10px;
-  margin-left: 10px;
+  padding: 5px;
+  margin: 10px;
   background-color: #efefef;
   font-weight: bold;
   border-radius: 4px;
+}
+
+.footer {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
 }
 
 .list_day {
@@ -57,7 +62,7 @@ a {
 .list_day li {
   flex: 20% 0 0;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 5px;
 }
 
 .list_day a {
